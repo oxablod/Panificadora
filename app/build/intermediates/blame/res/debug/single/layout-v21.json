@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "I:\\#Aula androidstudio\\Panificadora\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "I:\\#Aula androidstudio\\Panificadora\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "I:\\#Aula androidstudio\\Panificadora\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "I:\\#Aula androidstudio\\Panificadora\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "I:\\#Aula androidstudio\\Panificadora\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "I:\\#Aula androidstudio\\Panificadora\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "I:\\#Aula androidstudio\\Panificadora\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "I:\\#Aula androidstudio\\Panificadora\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]

@@ -1,0 +1,7 @@
+#Thu Mar 30 20:24:26 BRT 2017
+base.0=I\:\\\#Aula androidstudio\\Panificadora\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b7ffc1486bc54b0e198a3c496ae86dc2b2e7429b
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=I\:\\\#Aula androidstudio\\Panificadora\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_25818be12218825bd9fdb7d54d422d2a3c51ce1c\\classes.dex
+base.1=I\:\\\#Aula androidstudio\\Panificadora\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_25818be12218825bd9fdb7d54d422d2a3c51ce1c
+file.0=I\:\\\#Aula androidstudio\\Panificadora\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b7ffc1486bc54b0e198a3c496ae86dc2b2e7429b\\classes.dex

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="I:\#Aula androidstudio\Panificadora\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="I:\#Aula androidstudio\Panificadora\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_0a060e03a6cabd8913bde6f34b768ac6f33a4ad8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\SDK\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="I:\#Aula androidstudio\Panificadora\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_77c555c0cfe2c3eafd50785116ecee88e8837f03\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="I:\#Aula androidstudio\Panificadora\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="I:\#Aula androidstudio\Panificadora\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_36fd3056264f6dffefd95daf7ebe9cb5bf99b084\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="I:\#Aula androidstudio\Panificadora\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="I:\#Aula androidstudio\Panificadora\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_c289f68a863dda32e8341b43737ef3d4968fbf06\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="I:\#Aula androidstudio\Panificadora\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5b23b9d052b5fec5da9b56f3a23cb22702f11361">
+        <dex dex="I:\#Aula androidstudio\Panificadora\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_25818be12218825bd9fdb7d54d422d2a3c51ce1c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="I:\#Aula androidstudio\Panificadora\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="I:\#Aula androidstudio\Panificadora\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_d6f9c8f5d6f189563bd60198e9ed3284549073bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="I:\#Aula androidstudio\Panificadora\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="I:\#Aula androidstudio\Panificadora\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_7d7117c287393f776d26035f1d573b5f2491460f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="I:\#Aula androidstudio\Panificadora\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="I:\#Aula androidstudio\Panificadora\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_140d441b889fa07a89650a74a23c6933598eb20d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="I:\#Aula androidstudio\Panificadora\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="I:\#Aula androidstudio\Panificadora\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_7d11682d576bb356e659f6a25c3fa6e296172a50\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="I:\#Aula androidstudio\Panificadora\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4bc40110d2b2c04a6b8183c92090c3cb6f769ba6">
+        <dex dex="I:\#Aula androidstudio\Panificadora\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b7ffc1486bc54b0e198a3c496ae86dc2b2e7429b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="I:\#Aula androidstudio\Panificadora\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="I:\#Aula androidstudio\Panificadora\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_4d6d6a5596245e69e2c7ea0e316170b5466d1f78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="I:\#Aula androidstudio\Panificadora\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="I:\#Aula androidstudio\Panificadora\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_dad4ca04d103fc3d5902522569b2c8f053e1b5d4\classes.dex" />
+    </item>
+
+</items>

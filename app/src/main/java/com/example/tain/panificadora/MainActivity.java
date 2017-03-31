@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView txtCodigo,txtNomeProduto,txtPrecoCusto,txtPrecoVenda,txtObs;
     private EditText edtCodigo,edtNomeProduto,edtPrecoCusto,edtPrecoVenda,edtObs;
-    private Button btnCancelar, btnSalvar;
+    private Button btnCancelar, btnSalvar, btnNovo;
     private Spinner spnMarca,spnEmbalagem;
     private Produto produto;
     private ProdutoAdapter adapter;
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         edtPrecoVenda = (EditText)findViewById(R.id.edtPrecoVenda);
         edtObs = (EditText)findViewById(R.id.edtObs);
 
-
+        btnNovo = (Button) findViewById(R.id.btnNovo);
         btnCancelar = (Button) findViewById(R.id.btnCancelar);
         btnSalvar = (Button)findViewById(R.id.btnSalvar);
         listView = (ListView)findViewById(R.id.listView);
@@ -111,6 +111,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        btnNovo.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View vi){
+                produto = null;
+            }
+        });
+
         List<String> Embalagens = new ArrayList<>();
         Embalagens.add("Embalagem 1");
         Embalagens.add("Embalagem 2");
@@ -127,22 +134,27 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+
+    private static final int excluir = 0;
+    //private static final int alterar = 1;
+    //private static final int excluir = 2;
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         if (v.getId() == R.id.listView) {
-            menu.add("Excluir");
+            menu.add(menu.NONE, excluir ,menu.NONE,"Excluir");
         }
     }
 
-    //@Override
-    public boolean onContextItemSelected(MenuItem item,AdapterView<?> parent, View view, int position, long id)  {
-        AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
-        Produto prod = (Produto)adapter.getItem(position);
+    @Override
+    public boolean onContextItemSelected(MenuItem item)  {
+        //AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
         switch (item.getItemId()) {
             case 0:
-                listView.removeViewAt(position);
-
+                //Toast.makeText(this,"Case 2",
+                        //Toast.LENGTH_SHORT).show();
+                adapter.removeProduto(produto);
                 adapter.notifyDataSetChanged();
+                break;
         }
         return true;
     }
@@ -184,7 +196,12 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        produto = new Produto();
+        boolean editando = true;
+        if (produto == null){
+            produto = new Produto();
+            editando = false;
+        }
+
         produto.setCodigo(edtCodigo.getText().toString());
         produto.setNomeProduto(edtNomeProduto.getText().toString());
         produto.setPrecoCusto(edtPrecoCusto.getText().toString());
@@ -192,7 +209,13 @@ public class MainActivity extends AppCompatActivity {
         produto.setObs(edtObs.getText().toString());
         produto.setEmbalagem(spnEmbalagem.getSelectedItem().toString());
         produto.setMarca(spnMarca.getSelectedItem().toString());
-        adapter.addProduto(produto);
+
+        if (editando){
+            adapter.alterarProduto(produto);
+        }else{
+            adapter.addProduto(produto);
+        }
+
     }
 
     @Override

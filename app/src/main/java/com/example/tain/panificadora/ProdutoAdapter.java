@@ -30,6 +30,19 @@ public class ProdutoAdapter extends BaseAdapter {
         this.context = context;
     }
 
+    public void removeProduto(Produto produto){
+        lista.remove(produto);
+        notifyDataSetChanged();
+    }
+
+    public void alterarProduto(Produto produto){
+        int index = lista.indexOf(produto);
+        if (index > -1){
+            lista.set(index, produto);
+            notifyDataSetChanged();
+        }
+    }
+
 
     public void addProduto(Produto produto){
         lista.add(produto);
